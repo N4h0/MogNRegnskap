@@ -10,13 +10,13 @@ const NotFound = () => {
           bøkene igjen. Bruk menyen for å finne veien tilbake:</p>
           <div className="logo-container">
             <a href="/hjem">
-              <img src="/logo1.png" alt="Hjem" className="logo1" />
+              <img src="/assets/logo1.png" alt="Hjem" className="logo1" />
             </a>
             <a href="/chatbot">
-              <img src="/logo2.png" alt="logo 2" className="logo2" />
+              <img src="/assets/logo2.png" alt="logo 2" className="logo2" />
             </a>
             <a href="/contact">
-              <img src="/logo3.png" alt="logo 3" className="logo3" />  
+              <img src="/assets/logo3.png" alt="logo 3" className="logo3" />  
             </a>
         </div>
       </div>
