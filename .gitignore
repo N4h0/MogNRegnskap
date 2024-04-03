@@ -23,3 +23,6 @@ dist-ssr
 *.sw?
 /.vs/reactproject2/FileContentIndex
 /obj/Debug
+/.vs/MogNRegnskap/FileContentIndex
+/.vs/MogNRegnskap/v17
+/.vs
