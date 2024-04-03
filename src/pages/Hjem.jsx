@@ -1,6 +1,7 @@
 ﻿import { useContext, useEffect } from 'react';
 import { LanguageContext } from '../languages/LanguageContext'; 
 import './Hjem.css';
+import { Link } from 'react-router-dom';
 import en from '../languages/en.json'; // Engelsk språkdata
 import no from '../languages/no.json'; // Norsk språkdata
 
@@ -38,9 +39,9 @@ function Bildet({ language }) {
                 <h1>M&N</h1>
                 <h1>{textData.regnskap}</h1>
                 <h2>{textData.home_page_text}</h2>
-                <a href="/team">
+                <Link to="/team">
                     <button className="bildeKnapp">{textData.more_info}</button>
-                </a>
+                </Link>
             </div>
         </>
     );
@@ -76,9 +77,9 @@ function Regnskap({ language }) {
                 </div>
             </div>
             <div className='siste-container'>
-                    <a className="regnskapsKnapp" href="/team">
+                    <Link className="regnskapsKnapp" to="/team">
                         <span className="regnskapsKnappTekst">{textData.more_info}</span>
-                    </a>
+                    </Link>
             </div> 
         </>
     );
@@ -170,9 +171,9 @@ function Kontakt({ language }) {
             <div className="kontaktTekstboks">
                     <h1>{textData.join_us}</h1>
                     <p>{textData.focus_on}</p>
-                    <a href="/contact">
+                    <Link to="/contact">
                         <button className="kontaktKnapp">{textData.contact_us}</button>
-                    </a>
+                    </Link>
             </div>
         </div>
     </>
